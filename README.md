@@ -4,7 +4,7 @@
 
 ---
 
-## 목차
+## 📚목차
 - 개요
 - 설계 목표
 - Architecture
@@ -34,7 +34,7 @@ RISC는 *Reduced Instruction Set Computer*의 약어로, 간소화된 명령어�
 
 ---
 
-## Architecture
+## 📗Architecture
 ### Block Diagram
 <p align="center">
   <img width="1465" height="895" alt="image" src="https://github.com/user-attachments/assets/05a19830-1b96-4832-8ac0-2b57fb5a72cb" />
@@ -53,7 +53,7 @@ FSM을 보면 Execute까지만 수행하는 명령어의 경우에는 Execute �
 
 ---
 
-## Instruction Set
+## 📕Instruction Set
 ### All-Type
 <p align="center">
     <img width="1522" height="937" alt="image" src="https://github.com/user-attachments/assets/a2a5493a-7bd0-4d0f-8f35-a5d58df316a5" />
@@ -124,7 +124,7 @@ JL-Type 또한 다음 명령어 주소를 Register File에 저장 후 원하는 
 
 ---
 
-## Simulation
+## 📘Simulation
 
 전체 Type을 다 작성하면 너무 길어지기 때문에 주요 타입만 보여드리겠습니다.
 
@@ -150,7 +150,7 @@ S-Type도 L-Typte과 마찬가지로 Byte 및 Half 단위까지 Store 할 수 �
   <img width="1790" height="894" alt="image" src="https://github.com/user-attachments/assets/17cc3da1-cbf8-4179-9a09-e30bdb8e6231" />
 </p>
 
-## C Test Program Simulation
+## 📙C Test Program Simulation
 ROM Test Simulation 뿐만 아니라 실제 C Code를 컴파일한 머신코드를 제가 설계한 CPU에 적용시켜 명령어들이 정확히 설계 되었는지 확인 해보겠습니다.
 
 ### C Code
