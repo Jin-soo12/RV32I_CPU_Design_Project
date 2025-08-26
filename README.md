@@ -150,6 +150,8 @@ S-Type도 L-Typte과 마찬가지로 Byte 및 Half 단위까지 Store 할 수 �
   <img width="1790" height="894" alt="image" src="https://github.com/user-attachments/assets/17cc3da1-cbf8-4179-9a09-e30bdb8e6231" />
 </p>
 
+---
+
 ## 📙C Test Program Simulation
 ROM Test Simulation 뿐만 아니라 실제 C Code를 컴파일한 머신코드를 제가 설계한 CPU에 적용시켜 명령어들이 정확히 설계 되었는지 확인 해보겠습니다.
 
