@@ -1,6 +1,6 @@
 # RISC-V CPU Design Project(RV32I)
-![language](https://img.shields.io/badge/HDL-SystemVerilog-blue?style=flat-square)
-![language](https://img.shields.io/badge/Software-C-green?style=flat-square)
+
+---
 
 ## 요약
 RISC-V의 RV32I 명령어 셋을 기반으로 한 Multi Cycle CPU를 SystemVerilog로 구현하고 검증까지 수행하는 프로젝트입니다.
