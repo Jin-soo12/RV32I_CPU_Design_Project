@@ -128,7 +128,7 @@ JL-Type 또한 다음 명령어 주소를 Register File에 저장 후 원하는 
 
 ## 📘Simulation
 
--전체 Type을 다 작성하면 너무 길어지기 때문에 주요 타입만 보여드리겠습니다.
+- 전체 Type을 다 작성하면 너무 길어지기 때문에 주요 타입만 보여드리겠습니다.
 
 ### R-Type Simulation
 <p align="center">
