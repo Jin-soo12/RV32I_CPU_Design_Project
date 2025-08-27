@@ -3,10 +3,9 @@
 ![language](https://img.shields.io/badge/Software-C-green?style=flat-square)
 
 ---
-
 ## 📚목차
-- 개요
-- 설계 목표
+- [개요](#개요)
+- [설계 목표](#설계-목표)
 - Architecture
 - Instruction Set
 - Simulation
