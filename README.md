@@ -1,4 +1,4 @@
-# RISC-V CPU Design (RV32I)
+# RISC-V CPU Design Project(RV32I)
 ![language](https://img.shields.io/badge/HDL-SystemVerilog-blue?style=flat-square)
 ![language](https://img.shields.io/badge/Software-C-green?style=flat-square)
 
