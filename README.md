@@ -7,9 +7,9 @@
 - [개요](#개요)
 - [설계 목표](#설계-목표)
 - [Architecture](#Architecture)
-- [Instruction Set](Instruction-Set)
-- [Simulation](Simulation)
-- [C Test Program Simulation](C-Test-Program-Simulation)
+- [Instruction Set](#Instruction-Set)
+- [Simulation](#Simulation)
+- [C Test Program Simulation](#C-Test-Program-Simulation)
 
 ---
 
