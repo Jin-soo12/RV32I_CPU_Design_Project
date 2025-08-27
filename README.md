@@ -6,10 +6,10 @@
 ## 📚목차
 - [개요](#개요)
 - [설계 목표](#설계-목표)
-- Architecture
-- Instruction Set
-- Simulation
-- C Test Program Simulation
+- [Architecture](#Architecture)
+- [Instruction Set](Instruction-Set)
+- [Simulation](Simulation)
+- [C Test Program Simulation](C-Test-Program-Simulation)
 
 ---
 
