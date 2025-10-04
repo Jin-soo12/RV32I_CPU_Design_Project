@@ -2,21 +2,22 @@
 
 ---
 
-## 📝요약
+## 요약
 RISC-V의 RV32I 명령어 셋을 기반으로 한 Multi Cycle CPU를 SystemVerilog로 구현 및 검증을 수행하는 프로젝트입니다.
 
 ---
-## 📚목차
+## 목차
 - [개요](#개요)
 - [설계 목표](#설계-목표)
 - [Architecture](#Architecture)
 - [Instruction Set](#Instruction-Set)
 - [Simulation](#Simulation)
 - [C Test Program Simulation](#C-Test-Program-Simulation)
+- [결론 및 고찰](#결론-및-고찰)
 
 ---
 
-## 📌개요
+## 개요
 **RISC**  
 RISC는 *Reduced Instruction Set Computer*의 약어로, 간소화된 명령어셋을 가진 컴퓨터 아키텍처입니다. CISC와 달리 명령어 수가 적고 구조가 단순하여 CPU 설계 학습에 매우 적합합니다.
 
@@ -30,13 +31,13 @@ RISC는 *Reduced Instruction Set Computer*의 약어로, 간소화된 명령어�
 
 ---
 
-## 🎯설계 목표
+## 설계 목표
 > RV32I 명령어셋의 이해 → CPU 설계 구현 → 시뮬레이션/검증  
 최종 목표는 **전체 CPU 동작 원리 이해와 검증 완료** 입니다.
 
 ---
 
-## 📗Architecture
+## Architecture
 ### Block Diagram
 <p align="center">
   <img width="1465" height="895" alt="image" src="https://github.com/user-attachments/assets/05a19830-1b96-4832-8ac0-2b57fb5a72cb" />
@@ -55,7 +56,7 @@ FSM을 보면 Execute까지만 수행하는 명령어의 경우에는 Execute �
 
 ---
 
-## 📕Instruction Set
+## Instruction Set
 ### All-Type
 <p align="center">
     <img width="1522" height="937" alt="image" src="https://github.com/user-attachments/assets/a2a5493a-7bd0-4d0f-8f35-a5d58df316a5" />
@@ -126,7 +127,7 @@ JL-Type 또한 다음 명령어 주소를 Register File에 저장 후 원하는 
 
 ---
 
-## 📘Simulation
+## Simulation
 
 - 전체 Type을 다 작성하면 너무 길어지기 때문에 주요 타입만 보여드리겠습니다.
 
@@ -154,7 +155,7 @@ S-Type도 L-Typte과 마찬가지로 Byte 및 Half 단위까지 Store 할 수 �
 
 ---
 
-## 📙C Test Program Simulation
+## C Test Program Simulation
 ROM Test Simulation 뿐만 아니라 실제 C Code를 컴파일한 머신코드를 제가 설계한 CPU에 적용시켜 명령어들이 정확히 설계 되었는지 확인 해보겠습니다.
 
 ### C Code
@@ -170,3 +171,7 @@ C Code상으로 동작은 기본적인 Sort함수를 구현한 코드이고 코�
 <img width="1702" height="916" alt="image" src="https://github.com/user-attachments/assets/a4b53971-516a-4147-8128-75e3f61b0e8f" />
 </p>
 Stack Pointer의 이동 및 명령어의 분기가 잘 이뤄진 것을 볼 수 있고 C Code의 동작인 Sort까지 잘 이뤄진 모습을 볼 수 있습니다.
+
+---
+
+### 결론 및 고찰
